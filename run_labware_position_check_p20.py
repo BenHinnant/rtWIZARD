@@ -11,7 +11,7 @@ def run(protocol):
     slot8 = protocol.load_labware('rtwizard_slot_258_bioline_dengue_igg_igm', 8)
     slot9 = protocol.load_labware('rtwizard_slot_369_bioline_dengue_igg_igm', 9)
     
-    sample_plate = protocol.load_labware('rtwizard_48_wellplate_2000ul_tubes', 10)
+    sample_plate = protocol.load_labware('rtwizard_48_wellplate_sarstedt_1100ul_tubes', 10)
     tips = protocol.load_labware('opentrons_96_tiprack_20ul', 11)
     
     p20 = protocol.load_instrument('p20_single_gen2', 'right', tip_racks=[tips])
