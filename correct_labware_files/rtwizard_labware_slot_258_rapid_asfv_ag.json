@@ -1,0 +1,82 @@
+{
+    "brand": {
+        "brand": "rtWIZARD",
+        "brandId": [
+            "La Jolla Institute for Immunology Histopathology Core"
+        ]
+    },
+    "metadata": {
+        "displayCategory": "wellPlate",
+        "displayVolumeUnits": "\u00b5L",
+        "tags": [],
+        "displayName": "rtWIZARD Slot B: rapid_asfv_ag"
+    },
+    "dimensions": {
+        "xDimension": 127.89,
+        "yDimension": 85.6,
+        "zDimension": 27
+    },
+    "groups": [
+        {
+            "metadata": {
+                "wellBottomShape": "flat"
+            },
+            "wells": [
+                "A1",
+                "B1",
+                "C1"
+            ]
+        }
+    ],
+    "parameters": {
+        "format": "irregular",
+        "quirks": [],
+        "isTiprack": false,
+        "isMagneticModuleCompatible": false,
+        "loadName": "rtwizard_slot_258_rapid_asfv_ag"
+    },
+    "namespace": "custom_beta",
+    "version": 1,
+    "schemaVersion": 2,
+    "cornerOffsetFromSlot": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+    },
+    "ordering": [
+        [
+            "A1",
+            "B1",
+            "C1"
+        ]
+    ],
+    "wells": {
+        "A1": {
+            "depth": 3,
+            "totalLiquidVolume": 500,
+            "shape": "circular",
+            "diameter": 4.1,
+            "x": 65.0,
+            "y": 67.18,
+            "z": 24
+        },
+        "B1": {
+            "depth": 3,
+            "totalLiquidVolume": 500,
+            "shape": "circular",
+            "diameter": 4.1,
+            "x": 65.0,
+            "y": 38.510000000000005,
+            "z": 24
+        },
+        "C1": {
+            "depth": 3,
+            "totalLiquidVolume": 500,
+            "shape": "circular",
+            "diameter": 4.1,
+            "x": 65.0,
+            "y": 9.84,
+            "z": 24
+        }
+    }
+}
