@@ -17,7 +17,7 @@ def generate_labware_template(num_wells, slot_num, x_right_most, y_right_most, x
         "dimensions": {
             "xDimension": 127.89,
             "yDimension": 85.6,
-            "zDimension": 25
+            "zDimension": 27
         },
         "groups": [{
             "metadata": {
@@ -75,58 +75,58 @@ def generate_labware_template(num_wells, slot_num, x_right_most, y_right_most, x
         # create wells_data dict that contains wells A1, B1, C1, A2, B2, C2
         wells_data = {
             "A1": {
-                "depth": 25,
+                "depth": 3,
                 "totalLiquidVolume": 500,
                 "shape": "circular",
                 "diameter": 4.1,
                 "x": initial_x_147_369,
                 "y": initial_y + (2 * y_spacing),
-                "z": 0
+                "z": 24
             },
             "B1": {
-                "depth": 25,
+                "depth": 3,
                 "totalLiquidVolume": 500,
                 "shape": "circular",
                 "diameter": 4.1,
                 "x": initial_x_147_369,
                 "y": initial_y + y_spacing,
-                "z": 0
+                "z": 24
             },
             "C1": {
-                "depth": 25,
+                "depth": 3,
                 "totalLiquidVolume": 500,
                 "shape": "circular",
                 "diameter": 4.1,
                 "x": initial_x_147_369,
                 "y": initial_y,
-                "z": 0
+                "z": 24
             },
             "A2": {
-                "depth": 25,
+                "depth": 3,
                 "totalLiquidVolume": 500,
                 "shape": "circular",
                 "diameter": 4.1,
                 "x": initial_x_147_369 + x_spacing,
                 "y": initial_y + (2 * y_spacing),
-                "z": 0
+                "z": 24
             },
             "B2": {
-                "depth": 25,
+                "depth": 3,
                 "totalLiquidVolume": 500,
                 "shape": "circular",
                 "diameter": 4.1,
                 "x": initial_x_147_369 + x_spacing,
                 "y": initial_y + y_spacing,
-                "z": 0
+                "z": 24
             },
             "C2": {
-                "depth": 25,
+                "depth": 3,
                 "totalLiquidVolume": 500,
                 "shape": "circular",
                 "diameter": 4.1,
                 "x": initial_x_147_369 + x_spacing,
                 "y": initial_y,
-                "z": 0
+                "z": 24
             }
         }
         labware_template["wells"] = wells_data
@@ -144,31 +144,31 @@ def generate_labware_template(num_wells, slot_num, x_right_most, y_right_most, x
         # create wells_data dict that contains wells A1, B1, C1
         wells_data = {
             "A1": {
-                        "depth": 25,
+                        "depth": 3,
                         "totalLiquidVolume": 500,
                         "shape": "circular",
                         "diameter": 4.1,
                         "x": initial_x_258,
                         "y": initial_y + (2 * y_spacing),
-                        "z": 0
+                        "z": 24
             },
             "B1": {
-                        "depth": 25,
+                        "depth": 3,
                         "totalLiquidVolume": 500,
                         "shape": "circular",
                         "diameter": 4.1,
                         "x": initial_x_258,
                         "y": initial_y + y_spacing,
-                        "z": 0
+                        "z": 24
             },
             "C1": {
-                        "depth": 25,
+                        "depth": 3,
                         "totalLiquidVolume": 500,
                         "shape": "circular",
                         "diameter": 4.1,
                         "x": initial_x_258,
                         "y": initial_y,
-                        "z": 0
+                        "z": 24
             }
         }
         labware_template["wells"] = wells_data
