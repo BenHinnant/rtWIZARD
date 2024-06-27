@@ -11,7 +11,7 @@ def run(protocol):
     slot8 = protocol.load_labware('rtwizard_slot_258_rapid_asfv_ag', 8)
     slot9 = protocol.load_labware('rtwizard_slot_369_rapid_asfv_ag', 9)
     
-    sample_plate = protocol.load_labware('rtwizard_48_wellplate_1.1ml_sample_tubes_2ml_rb_tubes', 10)
+    sample_plate = protocol.load_labware('rtwizard_48_well_plate_1100ul_sample_tubes_2ml_rb_tubes', 10)
     tips = protocol.load_labware('opentrons_96_tiprack_300ul', 11)
     
     p300 = protocol.load_instrument('p300_single_gen2', 'left', tip_racks=[tips])
