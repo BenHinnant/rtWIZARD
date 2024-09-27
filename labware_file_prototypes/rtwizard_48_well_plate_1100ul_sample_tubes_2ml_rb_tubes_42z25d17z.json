@@ -72,7 +72,7 @@
         ]
     },
     "metadata": {
-        "displayName": "rtWIZARD 48 Well Plate with 1.1ml Sample Tubes and 2ml RB tubes",
+        "displayName": "rtWIZARD 48 Well Plate with 1.1mL Sample Tubes and 2ml RB tubes",
         "displayCategory": "wellPlate",
         "displayVolumeUnits": "µL",
         "tags": []
@@ -578,7 +578,7 @@
         "quirks": [],
         "isTiprack": false,
         "isMagneticModuleCompatible": false,
-        "loadName": "rtwizard_48_well_plate_1100ul_sample_tubes_2ml_rb_tubes"
+        "loadName": "rtwizard_48_well_plate_1100ul_sample_tubes_2ml_rb_tubes_42z25d17z"
     },
     "namespace": "custom_beta",
     "version": 1,
